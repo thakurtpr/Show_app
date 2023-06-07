@@ -22,7 +22,6 @@ const ShowDetails = () => {
   const handleBookTicket = () => {
     localStorage.setItem("showName", show.name);
     localStorage.setItem("showId", show.id);
-    console.log("exews");
     setShowForm(true);
   };
 
