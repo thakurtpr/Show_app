@@ -41,7 +41,6 @@ const ShowDetails = () => {
         <h1>{show.name}</h1>
         <h2>Summary</h2>
         <p>{show.summary}</p>
-        <h2>Description</h2>
         <button onClick={handleBookTicket}>Book Ticket</button>
       </div>
       {showForm && (
